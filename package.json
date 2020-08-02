@@ -1,6 +1,6 @@
 {
   "name": "new-wb",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Download and install WB-Starter.",
   "main": "./lib/index.js",
   "bin": {
