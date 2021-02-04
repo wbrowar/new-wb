@@ -1,7 +1,7 @@
 {
   "name": "new-wb",
-  "version": "0.1.6",
-  "description": "Download and install WB-Starter.",
+  "version": "0.1.7",
+  "description": "Download and install Workbench.",
   "main": "./lib/index.js",
   "bin": {
     "new-wb": "bin/new-wb.js"
@@ -10,10 +10,10 @@
   "author": "Will Browar",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "download": "^7.1.0",
-    "fs-extra": "^7.0.0",
-    "inquirer": "^6.2.0",
+    "chalk": "^4.1.0",
+    "download": "^8.0.0",
+    "fs-extra": "^9.1.0",
+    "inquirer": "^7.3.3",
     "pleasant-progress": "^1.1.0"
   }
 }

@@ -1,15 +1,15 @@
-# New WB
+# New Workbench
 
-Installer script for [WB Starter](https://github.com/wbrowar/WB-Starter)
+Installer script for [Workbench](https://github.com/wbrowar/workbench)
 
 ## Requirements
 - [Node.js](https://nodejs.org/en/) (requires v14+)
 - [Composer](https://getcomposer.org) (Needed when installing PHP-based projects, only)
 
 ## Installation
-**New WB** is a Node module that should be installed globally and it downloads the rest of its dependencies via `npm` and, when applicable, `composer`.
+**New Workbench** is a Node module that should be installed globally and it downloads the rest of its dependencies via `npm` and, when applicable, `composer`.
 
-To set up **New WB**, run `npm install -g new-wb` to install it to your global NPM modules folder.
+To set up **New Workbench**, run `npm install -g new-wb` to install it to your global NPM modules folder.
 
 ## Usage
 Follow these steps to generate a new project:
@@ -26,12 +26,12 @@ Arguments that are available when running `new-wb`:
 | Argument | Default | Description |
 | --- | --- | --- |
 | `--dev` | *false* | Use the `dev` branch of WB Starter for installation. |
-| `--local` | | Points to the root of a local, unzipped, version of WB-Starter to use that instead of downloading it from the repo. _NOTE: `--dev` will be ignored when using a local install._ |
+| `--local` | | Points to the root of a local, unzipped, version of Workbench to use that instead of downloading it from the repo. _NOTE: `--dev` will be ignored when using a local install._ |
 | `--verbose` | *false* | Displays command confirmations and extra command line output. |
 
 ## Contributing
-To test locally, remove any existing versions of `new-wb`, clone this repo, and run this command:
+To test locally clone this repo, `cd` into it and run this command:
 
 ```
-npm uninstall -g new-wb && npm install -g PATH_TO_LOCAL
+npm uninstall -g new-wb && npm install -g
 ```
