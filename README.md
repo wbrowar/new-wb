@@ -30,8 +30,8 @@ Arguments that are available when running `new-wb`:
 | `--verbose` | *false* | Displays command confirmations and extra command line output. |
 
 ## Contributing
-To test locally, remove any existing versions of `new-wb`, clone this repo, and run this command:
+To test locally clone this repo, `cd` into it and run this command:
 
 ```
-npm uninstall -g new-wb && npm install -g PATH_TO_LOCAL
+npm uninstall -g new-wb && npm install -g
 ```
