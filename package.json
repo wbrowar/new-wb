@@ -1,6 +1,6 @@
 {
   "name": "new-wb",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Download and install Workbench.",
   "main": "./lib/index.js",
   "bin": {
